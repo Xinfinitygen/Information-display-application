@@ -1,3 +1,6 @@
+import React from 'react'
+import './index.css'
+
 // Book component
 function Book({ title }) {
     return <div className="book-card">{title}</div>;
